@@ -9,13 +9,12 @@ client_scripts {
 }
 
 server_scripts {
-    'vorpmetabolism-sv.net.dll'
+    'server/controllers/*.lua',
+    'server/handlers/*.lua',
+    'server/services/*.lua'
 }
 
 files {
-    'Newtonsoft.Json.dll',
-    'ui/hud.html',
-    'ui/css/style.css',
-    'ui/js/circle-progress.js',
-    'ui/js/circle-progress.min.js',
+    'ui/**/*',
+
 }
