@@ -4,7 +4,8 @@ rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aw
 ui_page 'html/hud.html'
 
 client_scripts {
-    'vorpmetabolism-cl.net.dll'
+    'client/controllers/*.lua',
+    'client/services/*.lua'
 }
 
 server_scripts {
