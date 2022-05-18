@@ -23,4 +23,4 @@ files {
 version '1.0'
 vorp_checker 'yes'
 vorp_name '^4Resource version Check^3'
-vorp_github 'https://github.com/VORPCORE/vorp-metabolism-lua'
+vorp_github 'https://github.com/VORPCORE/vorp_metabolism-lua'
