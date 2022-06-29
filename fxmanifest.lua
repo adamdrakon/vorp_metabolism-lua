@@ -4,19 +4,18 @@ rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aw
 ui_page 'html/hud.html'
 
 client_scripts {
-    'client/controllers/*.lua',
-    'client/services/*.lua'
+    'client/services/*.lua',
+	'client/controllers/*.lua'    
 }
 
 server_scripts {
-    'server/controllers/*.lua',
-    'server/handlers/*.lua',
-    'server/services/*.lua'
+    'server/services/*.lua',
+	'server/controllers/*.lua',
+    'server/handlers/*.lua'
 }
 
 files {
     'ui/**/*',
-
 }
 
 
